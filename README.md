@@ -1,2 +1,2 @@
-# portfolio-geovana
-Portfólio pessoal de Geovana, reunindo experiências, contato e projetos relevantes.
+# Portfólio
+Portfólio pessoal de Geovana Costa, reunindo experiências, contato e projetos relevantes.
