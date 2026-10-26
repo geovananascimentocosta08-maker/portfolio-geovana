@@ -404,6 +404,91 @@ footer a {
 }
 
 
+/* Ajustes finais do mobile conforme o Figma */
+
+@media screen and (max-width: 47.99rem) {
+
+    /* Centralização da seção inicial */
+    .hero-section {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        min-height: 90dvh;
+        padding: 3rem 1.5rem;
+    }
+
+    .hero-section h2 {
+        font-size: clamp(2rem, 8vw, 2.5rem);
+        line-height: 1.15;
+        max-width: 15ch;
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    .hero-section p {
+        max-width: 34ch;
+        margin-inline: auto;
+        text-align: center;
+        font-size: .95rem;
+    }
+
+    /* Botões centralizados e mais estreitos */
+    .hero-section ul {
+        width: 100%;
+        max-width: 18rem;
+        margin-inline: auto;
+        align-items: center;
+    }
+
+    .hero-section ul li {
+        width: 100%;
+    }
+
+    .hero-section a {
+        width: 100%;
+        height: 2.75rem;
+        font-size: .85rem;
+    }
+
+    /* Centralização da seção Sobre */
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 3.5rem 1.5rem;
+    }
+
+    .about-section > div {
+        width: 100%;
+        max-width: 32rem;
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    .about-section h2 {
+        font-size: clamp(1.75rem, 7vw, 2.25rem);
+        line-height: 1.2;
+        max-width: 18ch;
+        margin: 0 auto 1.25rem;
+        text-align: center;
+    }
+
+    .about-section p {
+        max-width: 34ch;
+        margin: 0 auto 1rem;
+        text-align: center;
+        font-size: .95rem;
+        line-height: 1.6;
+    }
+
+    .about-section img {
+        width: 100%;
+        max-width: 28rem;
+        margin: 1.5rem auto 0;
+    }
+}
+
 
 
 
